@@ -20,7 +20,7 @@ def organizar_vendas(vendas):
     vendas_por_mes["vendas"] = (vendas_por_mes["vendas"]/1e3).round(2)
     
     # Caminho de saída para o arquivo
-    arquivo_saida_mes = 'C:\\Users\\thbg1\\OneDrive\\Área de Trabalho\\tabela_financas_por_mes.txt'
+    arquivo_saida_mes = 'C:\\Users\\thbg1\\OneDrive\\Área de Trabalho\\aula_alura\\tabela_financas_por_mes.txt'
     vendas_por_mes.to_csv(arquivo_saida_mes, sep='\t', index=False)
     
     print(f"Arquivo salvo em: {arquivo_saida_mes}")

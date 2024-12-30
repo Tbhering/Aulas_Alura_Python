@@ -7,7 +7,7 @@ def importar_vendas():
     vendas["data_pedido"] = pd.to_datetime(vendas["data_pedido"], format="%Y-%m-%d")
     
     # Caminho de saída para o arquivo
-    arquivo_saida = 'C:\\Users\\thbg1\\OneDrive\\Área de Trabalho\\tabela_financas.txt'
+    arquivo_saida = 'C:\\Users\\thbg1\\OneDrive\\Área de Trabalho\\aula_alura\\tabela_financas.txt'
     vendas.to_csv(arquivo_saida, sep='\t', index=False)
     
     print(f"Arquivo salvo em: {arquivo_saida}")

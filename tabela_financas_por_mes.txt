@@ -1,0 +1,13 @@
+Mês	vendas
+Jan	551.28
+Feb	545.09
+Mar	580.62
+Apr	645.45
+May	634.16
+Jun	582.66
+Jul	519.95
+Aug	646.85
+Sep	562.36
+Oct	607.34
+Nov	619.35
+Dec	585.89
