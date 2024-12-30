@@ -30,4 +30,4 @@ def grafico_vendas_por_mes(df, filename):
 # Exemplo de uso
 arquivo_saida_mes = 'C:\\Users\\thbg1\\OneDrive\\Área de Trabalho\\aula_alura\\tabela_financas_por_mes.txt'
 df = pd.read_csv(arquivo_saida_mes, sep='\t')
-grafico_vendas_por_mes(df, 'C:\\Users\\thbg1\\OneDrive\\Área de Trabalho\\aula_alura\\vendas_por_mes.pdf')
+grafico_vendas_por_mes(df, 'C:\\Users\\thbg1\\OneDrive\\Área de Trabalho\\aula_alura\\vendas_por_mes.png')

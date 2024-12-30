@@ -1,0 +1,4 @@
+departamento	lucro
+Automotivo	230.66
+Jardinagem e paisagismo	196.8
+Materiais de construção	26.79
